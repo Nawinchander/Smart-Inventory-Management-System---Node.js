@@ -1,0 +1,24 @@
+Why MongoDB + MySQL?
+MySQL
+
+Stores:
+
+Users
+Roles
+Login data
+
+Because:
+
+ACID transactions
+Relations
+MongoDB
+
+Stores:
+
+Products
+Orders
+
+Because:
+
+Flexible schema
+High read/write speed
