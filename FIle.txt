@@ -1,0 +1,16 @@
+Node.js Mini Project: Smart Inventory Management System
+
+This project is designed from an interview perspective and covers:
+
+Node.js
+Express.js
+REST APIs
+MongoDB
+MySQL
+JWT Authentication
+Unit & Integration Testing
+DSA concepts used inside APIs
+Folder structure used in real companies
+Interview Questions & Answer
+
+
