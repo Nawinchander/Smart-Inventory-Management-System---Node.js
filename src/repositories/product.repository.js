@@ -17,3 +17,15 @@ class ProductRepository{
 }
 
 module.exports = new ProductRepository();
+
+
+
+// Controller
+//      ↓
+// Service
+//      ↓
+// Repository
+//      ↓
+// Database
+
+
