@@ -1,18 +1,31 @@
-const service = require("../services/product.service");
+const productService = require("../services/product.service");
 
-exports.createProduct = async(req,res)=>{
+exports.searchByPrice = async (req, res) => {
 
-    const product = await service.createProduct(
-        req.body
-    );
+    try {
 
-    res.status(201).json(product);
-}
+        const price = Number(req.query.price);
+
+        const product =
+            await productService.searchByPrice(price);
+
+        if (!product) {
+
+            return res.status(404).json({
+                message: "Product not found"
+            });
+
+        }
+
+        res.status(200).json(product);
+
+    } catch (error) {
+
+        res.status(500).json({
+            message: error.message
+        });
+
+    }
+};
 
 
-exports.getProducts = async(req,res)=>{
-
-    const products = await service.getProducts();
-
-    res.json(products);
-}
