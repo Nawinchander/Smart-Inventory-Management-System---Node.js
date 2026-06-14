@@ -20,3 +20,14 @@ class PriorityQueue{
 }
 
 module.exports=PriorityQueue;
+
+
+pq.enqueue(order1,3);
+
+pq.enqueue(order2,10);
+
+pq.dequeue();
+
+/// order2
+
+
