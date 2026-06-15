@@ -1,0 +1,13 @@
+nterview Questions and Answers
+Q1 Why do we use Service Layer?
+
+Answer
+
+Service layer contains business logic and separates controllers from database logic.
+
+Q2 Why Repository Pattern?
+
+Answer
+
+It abstracts database operations and allows changing MongoDB/MySQL implementation without affecting business logic.
+
