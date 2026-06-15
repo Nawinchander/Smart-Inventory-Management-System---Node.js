@@ -11,3 +11,17 @@ Answer
 
 It abstracts database operations and allows changing MongoDB/MySQL implementation without affecting business logic.
 
+Q3 Why use MongoDB and MySQL together?
+
+Answer
+
+MySQL is suitable for relational data and transactions, while MongoDB handles flexible schemas and high-volume document storage.
+
+Q4 Why Binary Search instead of Linear Search?
+Algorithm	Complexity
+Linear Search	O(n)
+Binary Search	O(log n)
+
+Binary Search is faster for sorted data.
+
+Q5 Why Priority Queue for orders?
