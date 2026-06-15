@@ -40,4 +40,21 @@ Validation	Business logic
 Authentication	Response generation
 Q7 What tests should be written?
 
+Unit Tests
+
+Service functions.
+
+Integration Tests
+
+Controller + DB.
+
+API Tests
+
+Endpoints.
+
+E2E Tests
+
+Entire flow.
+
+
 
