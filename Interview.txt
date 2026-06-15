@@ -25,3 +25,19 @@ Binary Search	O(log n)
 Binary Search is faster for sorted data.
 
 Q5 Why Priority Queue for orders?
+Answer
+
+Priority Queue allows urgent orders to be processed first.
+
+Complexity:
+
+Insertion O(log n)
+Deletion O(log n)
+Q6 Difference between Middleware and Controller?
+Middleware	Controller
+Runs before controller	Handles request
+Validation	Business logic
+Authentication	Response generation
+Q7 What tests should be written?
+
+
