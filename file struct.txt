@@ -56,3 +56,73 @@ src/
 
 package.json
 .env
+
+
+
+
+
+advance struct 
+
+
+smart-inventory-system/
+
+src/
+│
+├── controllers
+├── services
+├── repositories
+├── middleware
+├── routes
+├── models
+├── algorithms
+├── utils
+├── tests
+│
+docker/
+│
+├── Dockerfile
+│
+.github/
+│
+└── workflows/
+     ├── ci.yml
+     ├── cd.yml
+     ├── sonar.yml
+     └── security.yml
+
+k8s/
+│
+├── deployment.yaml
+├── service.yaml
+├── ingress.yaml
+├── configmap.yaml
+├── secret.yaml
+├── hpa.yaml
+├── mongodb-statefulset.yaml
+├── mysql-statefulset.yaml
+├── pvc.yaml
+
+monitoring/
+│
+├── prometheus.yml
+├── grafana-dashboard.json
+
+logging/
+│
+├── elasticsearch.yaml
+├── kibana.yaml
+
+helm/
+│
+├── Chart.yaml
+│
+terraform/
+│
+├── main.tf
+
+scripts/
+│
+├── deploy.sh
+│
+README.md
+
