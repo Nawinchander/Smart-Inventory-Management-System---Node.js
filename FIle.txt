@@ -14,3 +14,52 @@ Folder structure used in real companies
 Interview Questions & Answer
 
 
+Deployment Flow
+
+
+Developer
+
+    ↓
+
+GitHub
+
+    ↓
+
+CI Pipeline
+(npm install)
+
+    ↓
+
+Jest Tests
+
+    ↓
+
+Build Docker Image
+
+    ↓
+
+Push Image To Docker Hub
+
+    ↓
+
+CD Pipeline
+
+    ↓
+
+Kubernetes Deployment
+
+    ↓
+
+Pods
+
+    ↓
+
+Service
+
+    ↓
+
+Ingress
+
+    ↓
+
+Users
