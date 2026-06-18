@@ -1,0 +1,11 @@
+apiVersion: v2
+
+name: inventory-app
+
+description: Inventory Management System
+
+type: application
+
+version: 1.0.0
+
+appVersion: "1.0"
