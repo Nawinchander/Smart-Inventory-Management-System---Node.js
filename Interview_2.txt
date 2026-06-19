@@ -38,3 +38,73 @@ smart-inventory-system/
 ├── docker-compose.yml
 ├── package.json
 └── .env
+
+
+Application Code
+       ↓
+Docker
+       ↓
+Kubernetes (k8s)
+       ↓
+Monitoring + Logging
+       ↓
+Helm
+       ↓
+Terraform
+       ↓
+Scripts + CI/CD
+
+monitoring/
+monitoring/
+│
+├── prometheus.yml
+└── grafana-dashboard.json
+
+Purpose:
+
+Observe system health.
+Monitor CPU, memory, API response time.
+Detect failures before users notice.
+Tools
+Prometheus
+
+Collects metrics.
+
+Example:
+
+CPU = 70%
+Memory = 3GB
+API Requests = 5000/min
+Grafana
+
+Visualizes metrics.
+
+Shows:
+
+Charts
+Dashboards
+Alerts
+Flow
+Node App
+     ↓
+Prometheus
+     ↓
+Grafana Dashboard
+Benefits
+Detect bottlenecks
+Capacity planning
+Alerting
+High availability
+File
+prometheus.yml
+
+Extension:
+
+.yml
+
+Used for configuration.
+
+Example:
+
+scrape_configs:
+  - job_name: node-api
