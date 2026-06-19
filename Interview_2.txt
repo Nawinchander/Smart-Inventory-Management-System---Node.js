@@ -85,16 +85,24 @@ Charts
 Dashboards
 Alerts
 Flow
+
+
+
 Node App
      ↓
 Prometheus
      ↓
 Grafana Dashboard
+
+
 Benefits
+
 Detect bottlenecks
 Capacity planning
 Alerting
 High availability
+
+
 File
 prometheus.yml
 
@@ -108,3 +116,88 @@ Example:
 
 scrape_configs:
   - job_name: node-api
+
+
+
+  k8s/
+k8s/
+│
+├── deployment.yaml
+├── service.yaml
+├── ingress.yaml
+├── configmap.yaml
+├── secret.yaml
+└── hpa.yaml
+
+Purpose:
+
+Deploy and manage containers automatically.
+
+Kubernetes handles:
+
+Scaling
+Self-healing
+Load balancing
+Rolling updates
+Deployment
+
+Creates pods.
+
+Deployment
+      ↓
+Pods
+      ↓
+Containers
+Service
+
+Exposes pods.
+
+User
+ ↓
+Service
+ ↓
+Pods
+Ingress
+
+Acts like API Gateway.
+
+Internet
+ ↓
+Ingress
+ ↓
+Services
+HPA
+
+Horizontal Pod Autoscaler.
+
+Automatically increases pods.
+
+CPU > 70%
+
+3 Pods
+
+↓
+
+8 Pods
+Benefits
+Auto scaling
+Fault tolerance
+Zero downtime deployment
+Rolling updates
+File extension
+.yaml
+
+or
+
+.yml
+
+Both are identical.
+
+Used for:
+
+Kubernetes
+Docker Compose
+GitHub Actions
+Prometheus
+
+
