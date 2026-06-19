@@ -201,3 +201,104 @@ GitHub Actions
 Prometheus
 
 
+logging/
+logging/
+│
+├── elasticsearch.yaml
+└── kibana.yaml
+
+Purpose:
+
+Centralized logs.
+
+Without logging:
+
+Server crashed ❌
+No clue why
+
+With logging:
+
+500 error occurred
+MongoDB timeout
+JWT expired
+ELK Stack
+Elasticsearch
+
+Stores logs.
+
+Kibana
+
+Visualizes logs.
+
+Flow:
+
+Node App
+
+↓
+
+Logs
+
+↓
+
+Elasticsearch
+
+↓
+
+Kibana
+
+Benefits:
+
+Debugging
+Searching logs
+Error tracking
+Security auditing
+4. helm/
+helm/
+│
+├── Chart.yaml
+├── values.yaml
+└── templates/
+
+Purpose:
+
+Package manager for Kubernetes.
+
+Similar to:
+
+npm → Node.js
+
+Helm → Kubernetes
+
+Without Helm:
+
+50 YAML files.
+
+With Helm:
+
+Templates + Variables.
+
+Example:
+
+Instead of:
+
+replicas: 3
+
+Use:
+
+replicas: {{ .Values.replicaCount }}
+
+which comes from:
+
+replicaCount: 3
+
+inside:
+
+values.yaml
+
+Benefits
+
+Reusable templates
+Environment management
+Easier deployment
+Less duplication
+
