@@ -1,0 +1,40 @@
+
+
+This architecture is close to what you'll see in large-scale backend systems used by Amazon, Uber, Walmart, PayPal, and Netflix, and is suitable for SDE-2/Senior Node.js interview discussions.
+
+
+
+smart-inventory-system/
+│
+├── src/
+│
+├── tests/
+│
+├── algorithms/
+│
+├── docker/
+│
+├── k8s/
+│
+├── monitoring/
+│
+├── logging/
+│
+├── helm/
+│
+├── terraform/
+│
+├── scripts/
+│
+├── .github/
+│     └── workflows/
+│            ci.yml
+│            cd.yml
+│            security.yml
+│            sonar.yml
+│
+├── README.md
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+└── .env
