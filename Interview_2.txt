@@ -302,3 +302,108 @@ Environment management
 Easier deployment
 Less duplication
 
+
+
+scripts/
+scripts/
+│
+├── deploy.sh
+└── rollback.sh
+
+Purpose:
+
+Automate repetitive commands.
+
+Example
+
+Instead of typing:
+
+npm test
+
+docker build
+
+docker push
+
+kubectl apply
+
+every day,
+
+write:
+
+./deploy.sh
+File extension
+.sh
+
+Means:
+
+Shell Script.
+
+Linux executable file.
+
+Example
+
+#!/bin/bash
+
+npm test
+
+docker build -t app .
+
+kubectl apply -f k8s/
+
+Run:
+
+chmod +x deploy.sh
+
+./deploy.sh
+
+Benefits
+
+Automation
+Faster deployment
+Reduced human error
+Extension Summary
+Extension	Meaning	Used For
+.js	JavaScript	Node.js code
+.json	JSON	Config, package.json
+.yml	YAML	Kubernetes, GitHub Actions
+.yaml	YAML	Same as .yml
+.tf	Terraform	Infrastructure as Code
+.sh	Shell Script	Linux automation
+.env	Environment variables	Secrets
+.md	Markdown	Documentation
+.sql	SQL queries	Database
+.dockerfile	Docker image creation	Containers
+In Production
+Developer
+    ↓
+
+Node.js Application
+    ↓
+
+Docker
+    ↓
+
+Kubernetes (k8s)
+    ↓
+-------------------------
+Monitoring
+(Prometheus + Grafana)
+-------------------------
+Logging
+(Elasticsearch + Kibana)
+-------------------------
+Helm
+(Template Manager)
+-------------------------
+Terraform
+(Create AWS Resources)
+-------------------------
+Scripts
+(Automation)
+-------------------------
+CI/CD
+(GitHub Actions)
+-------------------------
+Users
+
+
