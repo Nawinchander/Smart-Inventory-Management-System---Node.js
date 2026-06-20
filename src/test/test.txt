@@ -1,0 +1,11 @@
+Authentication Test
+
+File
+tests/auth.test.js
+
+What does it test?
+Login API
+Status code
+JWT token generation
+
+
