@@ -20,3 +20,14 @@ Expected response:
 }
 
 
+Order API Test
+'
+File
+tests/order.test.js
+
+What does it test?
+Order creation
+HTTP status code
+Response object
+
+
