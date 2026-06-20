@@ -9,3 +9,14 @@ Status code
 JWT token generation
 
 
+
+API Tested
+POST /api/auth/login
+
+Expected response:
+
+{
+  "token": "jwt_token"
+}
+
+
