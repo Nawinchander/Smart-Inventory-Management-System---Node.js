@@ -407,3 +407,38 @@ CI/CD
 Users
 
 
+Interview Questions
+Q1: What is Kubernetes?
+
+Answer:
+
+Kubernetes is a container orchestration platform used to deploy, scale, and manage containers automatically.
+
+Q2: Why Helm?
+
+Answer:
+
+Helm acts as a package manager for Kubernetes and reduces duplication using templates.
+
+Q3: Why Terraform?
+
+Answer:
+
+Terraform allows infrastructure to be managed as code and makes deployments reproducible.
+
+Q4: Difference between Monitoring and Logging?
+Monitoring	Logging
+Metrics	Events
+CPU usage	Error messages
+Memory	Stack traces
+Prometheus	Elasticsearch
+Q5: Why Shell Scripts?
+
+Answer:
+
+Shell scripts automate repetitive tasks like testing, Docker builds, and deployments.
+
+These topics are frequently discussed for Senior Backend Engineer, DevOps Engineer, SRE, and SDE-2 interviews at companies like Amazon, Walmart, Uber, PayPal, and Netflix.
+
+
+
