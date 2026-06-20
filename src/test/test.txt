@@ -31,3 +31,12 @@ HTTP status code
 Response object
 
 
+API Tested
+POST /api/orders
+
+Body
+
+{
+  "productId": "6854b1d34c1fd91d12345678",
+  "quantity": 2
+}
