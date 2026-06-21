@@ -57,3 +57,22 @@ describe("Inventory E2E Flow",()=>{
     });
 
 });
+
+
+/// package.json
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+
+/// jest.config.js
+module.exports = {
+
+    testEnvironment: "node",
+
+    testMatch: [
+        "**/tests/**/*.test.js"
+    ]
+
+};
