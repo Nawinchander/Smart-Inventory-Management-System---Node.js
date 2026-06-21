@@ -24,3 +24,28 @@ module.exports = function(intervals) {
 
     return result;
 }
+
+
+const mergeIntervals =
+require("../../src/utils/mergeIntervals");
+
+describe("Merge Intervals",()=>{
+
+    test("should merge overlapping intervals",()=>{
+
+        const intervals = [
+            [1,3],
+            [2,6],
+            [8,10]
+        ];
+
+        expect(
+            mergeIntervals(intervals)
+        ).toEqual([
+            [1,6],
+            [8,10]
+        ]);
+
+    });
+
+});
