@@ -1,0 +1,16 @@
+Load Testing Pipeline
+
+Location:
+
+.github/workflows/load-test.yml
+
+Purpose:
+
+Run load tests automatically.
+Check performance before deployment.
+Measure response time and throughput.
+Project Structure
+load-tests/
+│
+├── product-load-test.js
+└── order-load-test.js
