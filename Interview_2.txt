@@ -441,4 +441,27 @@ Shell scripts automate repetitive tasks like testing, Docker builds, and deploym
 These topics are frequently discussed for Senior Backend Engineer, DevOps Engineer, SRE, and SDE-2 interviews at companies like Amazon, Walmart, Uber, PayPal, and Netflix.
 
 
+Interview Questions
+What is CI?
 
+Continuous Integration automatically builds and tests code whenever developers push changes.
+
+What is CD?
+
+Continuous Deployment automatically deploys tested code to production or Kubernetes.
+
+Why use GitHub Actions?
+
+Because it provides:
+
+Automated pipelines
+Testing
+Docker builds
+Kubernetes deployment
+Security scanning
+Difference between CI and CD?
+CI	CD
+Build	Deploy
+Run Tests	Release Application
+Detect Bugs Early	Deliver Changes Automatically
+Developers	DevOps/SRE
