@@ -1,0 +1,29 @@
+name: SonarQube
+
+on:
+  push:
+
+jobs:
+
+  sonar:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install
+
+      - run: npm test
+
+      - name: Sonar Scan
+
+        uses: SonarSource/sonarqube-scan-action@master
+
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
