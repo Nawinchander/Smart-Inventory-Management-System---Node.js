@@ -1,0 +1,25 @@
+Developer
+    ↓
+git push
+    ↓
+CI
+    ↓
+Security Scan
+    ↓
+SonarQube
+    ↓
+Load Test
+    ↓
+Deploy to Staging
+    ↓
+Manual Approval
+    ↓
+Production Deployment
+    ↓
+Monitoring (Prometheus)
+    ↓
+Grafana
+    ↓
+Logging (ELK)
+    ↓
+Rollback if Failure
