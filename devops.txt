@@ -1,3 +1,6 @@
+This workflow structure is close to what is used in SDE-2/Senior Backend and DevOps environments at Amazon, Uber, Walmart, Netflix, and PayPal.
+
+
 Developer
     ↓
 git push
